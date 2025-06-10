@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu conteudo"
+    "rodape rodape";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 1fr 60px;
+  height: 100vh;
+  gap: 10px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  grid-area: header;
+  background-color: #4682B4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.menu {
+  grid-area: menu;
+  background-color: #87CEFA;
+  padding: 20px;
+}
+.conteudo {
+  grid-area: conteudo;
+  background-color: #fff;
+  padding: 20px;
+}
+.rodape {
+  grid-area: rodape;
+  background-color: #4682B4;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.produtos {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.produto {
+  background-color: #6A5ACD;
+  color: white;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+}

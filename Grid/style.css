@@ -1,0 +1,20 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #fff8dc;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background-color: #f4e;
+    border: 2px solid purple;
+}
+.grid-item {
+    background-color: #9370DB;
+    color: white;
+    padding: 30px 0;
+    border-radius: 5px;
+    font-size: 24px;
+}
